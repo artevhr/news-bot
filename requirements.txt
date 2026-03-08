@@ -1,0 +1,6 @@
+aiogram==3.13.1
+telethon==1.36.0
+httpx==0.27.2
+apscheduler==3.10.4
+python-dotenv==1.0.1
+Pillow==10.4.0
