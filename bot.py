@@ -431,7 +431,7 @@ async def fetch_weather():
         emoji    = WEATHER_EMOJIS.get(main, "🌡")
         wdir     = wind_direction(wind_deg)
         text = (
-            f"{emoji} <b>Погода в {WEATHER_CITY} на сегодня</b>\n\n"
+            f"{emoji} <b>Погода в Гомеле сейчас</b>\n\n"
             f"🌡 Температура: <b>{temp:+}°C</b> (ощущается {feels:+}°C)\n"
             f"💧 Влажность: <b>{humidity}%</b>\n"
             f"💨 Ветер: <b>{wind_spd} м/с, {wdir}</b>\n"
