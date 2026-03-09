@@ -98,10 +98,10 @@ def record_publish(channel_source: str = ""):
 
 # ── AI-МОДЕЛИ (OpenRouter, бесплатные) ────────────────────────────────────────
 FREE_MODELS = {
-    "🦙 Llama 3.3 70B":      "meta-llama/llama-3.3-70b-instruct:free",
-    "🧠 Mistral Small 24B":  "mistralai/mistral-small-3.1-24b-instruct:free",
-    "💎 Gemma 3 27B":        "google/gemma-3-27b-it:free",
-    "🤖 GPT OSS 20B":        "openai/gpt-oss-20b:free",
+    "🟢 Nemotron 30B":  "nvidia/nemotron-3-nano-30b-a3b:free",
+    "🔵 Trinity Large": "arcee-ai/trinity-large-preview:free",
+    "🧠 Hermes 405B":   "nousresearch/hermes-3-llama-3.1-405b:free",
+    "⚡ GLM 4.5 Air":   "z-ai/glm-4.5-air:free",
 }
 
 REPHRASE_PROMPT = (
