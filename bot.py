@@ -501,7 +501,7 @@ async def fetch_rss():
 async def cmd_start(msg: Message):
     if msg.from_user.id != ADMIN_ID: return
     await msg.answer(
-        "👋 <b>NewsBot запущен!</b>\n\n"
+        "👋 <b>Новостной бот запущен!</b>\n\n"
         "Команды:\n"
         "  /sources — список Telegram-источников\n"
         "  /add — добавить Telegram-канал\n"
